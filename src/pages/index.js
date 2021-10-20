@@ -12,7 +12,7 @@ const IndexPage = () => (
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <StaticImage
-      src="../images/gatsby-astronaut.png"
+      src="../images/gatsby-icon.png"
       width={300}
       quality={95}
       formats={["auto", "webp", "avif"]}
@@ -21,7 +21,8 @@ const IndexPage = () => (
     />
     <p>
       <Link to="/using-typescript/">Go to typescript page</Link> <br />
-      <Link to="/page-2/">Go to "page 2"</Link>
+      <Link to="/page-2/">Go to "page 2"</Link> <br />
+      Hello my name is Roshani!!
     </p>
   </Layout>
 )

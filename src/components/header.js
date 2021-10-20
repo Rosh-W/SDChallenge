@@ -21,12 +21,16 @@ const Header = ({ siteTitle }) => (
           to="/"
           style={{
             color: `white`,
-            textDecoration: `none`,
+            textDecoration: `underline white`,
           }}
         >
-          {siteTitle}
+          {siteTitle} <br />
+
         </Link>
       </h1>
+      <p>
+        
+        Hello</p>
     </div>
   </header>
 )
