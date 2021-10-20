@@ -28,9 +28,27 @@ const Header = ({ siteTitle }) => (
 
         </Link>
       </h1>
-      <p>
-        
-        Hello</p>
+      <h2 style={{ margin: 10 }}>
+        <Link
+          to="/page-2/"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+          }}
+        >
+          Page 2 
+        </Link>
+
+        <Link
+          to="/using-typescript/"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+          }}
+        >
+          Using Typescript Page
+        </Link>
+      </h2>
     </div>
   </header>
 )
