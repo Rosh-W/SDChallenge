@@ -16,6 +16,27 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
+    <h2 style={{ margin: 10 }}>
+      <Link
+        to="/page-2/"
+        style={{
+          color: 'white',
+          textDecoration: 'none',
+        }}
+      >
+        Page 2       
+      </Link>
+
+      <Link
+        to="/using-typescript/"
+        style={{
+          color: 'white',
+          textDecoration: 'none',
+        }}
+      >
+        Using Typescript Page
+      </Link>
+      </h2>
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
@@ -28,27 +49,7 @@ const Header = ({ siteTitle }) => (
 
         </Link>
       </h1>
-      <h2 style={{ margin: 10 }}>
-        <Link
-          to="/page-2/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Page 2 
-        </Link>
 
-        <Link
-          to="/using-typescript/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Using Typescript Page
-        </Link>
-      </h2>
     </div>
   </header>
 )
