@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-    <h2 style={{ margin: 10 }}>
+    <h3 style={{ margin: 10 }}>
       <Link
         to="/page-2/"
         style={{
@@ -36,7 +36,7 @@ const Header = ({ siteTitle }) => (
       >
         Using Typescript Page
       </Link>
-      </h2>
+      </h3>
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
