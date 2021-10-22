@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => (
         style={{
           color: 'white',
           textDecoration: 'none',
-          padding: '5rem',
+          padding: '5.5rem',
         }}
       >
         Homepage
@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => (
         style={{
           color: 'white',
           textDecoration: 'none',
-          padding: '5rem',
+          padding: '5.5rem',
         }}
       >
         Page 2       
@@ -44,7 +44,7 @@ const Header = ({ siteTitle }) => (
         style={{
           color: 'white',
           textDecoration: 'none',
-          padding: '5rem',
+          padding: '5.5rem',
         }}
       >
         Typescript Page
