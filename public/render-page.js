@@ -6163,7 +6163,32 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
 
 
+ //const Header2 = ({}) => (
 
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", {
+  style: {
+    background: 'orange',
+    marginBottom: '1.45rem'
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  style: {
+    margin: '0 auto',
+    maxWidth: 960,
+    padding: '1.45rem 1.0875rem'
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", {
+  style: {
+    margin: 10
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
+  to: "/",
+  style: {
+    color: 'white',
+    textDecoration: 'none',
+    padding: '5.5rem'
+  }
+}, "Homepage")))); //)
 
 const Header = ({
   siteTitle

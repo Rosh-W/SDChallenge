@@ -2,6 +2,36 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
+const Header2 = ({}) => (
+  <header
+    style={{
+      background: 'orange',
+      marginBottom: '1.45rem',
+    }}
+  >
+    <div
+      style={{
+        margin: '0 auto',
+        maxWidth: 960,
+        padding: '1.45rem 1.0875rem',
+      }}
+    >
+      <h4 style={{ margin: 10}}>
+        <Link
+          to="/"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+            padding: '5.5rem'
+          }}
+        >
+          Homepage
+        </Link>
+      </h4>
+    </div>
+  </header>
+  
+)
 const Header = ({ siteTitle }) => (
   <header
     style={{
@@ -76,3 +106,4 @@ Header.defaultProps = {
 }
 
 export default Header
+//export default Header2
