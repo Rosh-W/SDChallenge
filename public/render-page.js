@@ -6194,7 +6194,14 @@ const Header2 = ({}) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createEl
     textDecoration: 'none',
     padding: '5.5rem'
   }
-}, "Page 2"))));
+}, "Page 2"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
+  to: "/using-typescript/",
+  style: {
+    color: 'white',
+    textDecoration: 'none',
+    padding: '5.5rem'
+  }
+}, "Using Typescript"))));
 /*const Header = ({ siteTitle }) => (
   <header
     style={{

@@ -54,7 +54,7 @@ const Header2 = ({}) => (
   </header>
   
 )
-/*const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `rebeccapurple`,
@@ -117,7 +117,7 @@ const Header2 = ({}) => (
 
     </div>
   </header>
-)*/
+)
 
 Header2.propTypes = {
   siteTitle: PropTypes.string,
