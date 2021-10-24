@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 const Header2 = ({}) => (
   <header
     style={{
-      background: 'orange',
+      background: 'rebeccapurple',
       marginBottom: '1.45rem',
     }}
   >
@@ -27,12 +27,34 @@ const Header2 = ({}) => (
         >
           Homepage
         </Link>
+
+        <Link
+          to="/page-2/"
+          style={{
+            colour: 'white',
+            textDecoration: 'none',
+            padding: '5.5rem',
+          }}
+        >
+          Page 2
+        </Link>
+
+        <Link
+          to="/using-typescript/"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+            padding: '5.5rem',
+          }}
+        >
+          Using Typescript
+          </Link>
       </h4>
     </div>
   </header>
   
 )
-const Header = ({ siteTitle }) => (
+/*const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `rebeccapurple`,
@@ -95,15 +117,15 @@ const Header = ({ siteTitle }) => (
 
     </div>
   </header>
-)
+)*/
 
-Header.propTypes = {
+Header2.propTypes = {
   siteTitle: PropTypes.string,
 }
 
-Header.defaultProps = {
+Header2.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default Header2
 //export default Header2
