@@ -6176,26 +6176,34 @@ const Header = ({
   style: {
     margin: `0 auto`,
     maxWidth: 960,
-    padding: `1.45rem 1.0875rem`
+    padding: `1.45rem 1.0876rem`
   }
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", {
   style: {
     margin: 10
   }
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
+  to: "/",
+  style: {
+    color: 'white',
+    textDecoration: 'none',
+    padding: '5.5rem'
+  }
+}, "Homepage"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
   to: "/page-2/",
   style: {
     color: 'white',
     textDecoration: 'none',
-    marginSide: '1.45rem'
+    padding: '5.5rem'
   }
 }, "Page 2"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
   to: "/using-typescript/",
   style: {
     color: 'white',
-    textDecoration: 'none'
+    textDecoration: 'none',
+    padding: '5.5rem'
   }
-}, "Using Typescript Page")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+}, "Typescript Page")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
   style: {
     margin: 0
   }
@@ -6423,7 +6431,7 @@ __webpack_require__.r(__webpack_exports__);
 const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_3__["default"], {
   title: "Home"
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Hi peoples my name is roshani"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Welcome to your new Gatsby site."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Now go build something great."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
-  src: "../images/gatsby-astronaut.png",
+  src: "../images/gatsby-icon.png",
   width: 300,
   quality: 95,
   formats: ["auto", "webp", "avif"],
@@ -6431,7 +6439,7 @@ const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createEl
   style: {
     marginBottom: `1.45rem`
   },
-  __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/65802871.json */ "./.cache/caches/gatsby-plugin-image/65802871.json")
+  __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3830738384.json */ "./.cache/caches/gatsby-plugin-image/3830738384.json")
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
   to: "/using-typescript/"
 }, "Go to typescript page"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
@@ -16004,14 +16012,14 @@ module.exports = require("path");
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/65802871.json":
-/*!*********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/65802871.json ***!
-  \*********************************************************/
+/***/ "./.cache/caches/gatsby-plugin-image/3830738384.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3830738384.json ***!
+  \***********************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/6d91c86c0fde632ba4cd01062fd9ccfa/c0d5f/gatsby-astronaut.png","srcSet":"/static/6d91c86c0fde632ba4cd01062fd9ccfa/1096c/gatsby-astronaut.png 75w,\\n/static/6d91c86c0fde632ba4cd01062fd9ccfa/01986/gatsby-astronaut.png 150w,\\n/static/6d91c86c0fde632ba4cd01062fd9ccfa/c0d5f/gatsby-astronaut.png 300w,\\n/static/6d91c86c0fde632ba4cd01062fd9ccfa/b5463/gatsby-astronaut.png 600w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/6d91c86c0fde632ba4cd01062fd9ccfa/26941/gatsby-astronaut.avif 75w,\\n/static/6d91c86c0fde632ba4cd01062fd9ccfa/95309/gatsby-astronaut.avif 150w,\\n/static/6d91c86c0fde632ba4cd01062fd9ccfa/288e4/gatsby-astronaut.avif 300w,\\n/static/6d91c86c0fde632ba4cd01062fd9ccfa/f5860/gatsby-astronaut.avif 600w","type":"image/avif","sizes":"(min-width: 300px) 300px, 100vw"},{"srcSet":"/static/6d91c86c0fde632ba4cd01062fd9ccfa/a18cc/gatsby-astronaut.webp 75w,\\n/static/6d91c86c0fde632ba4cd01062fd9ccfa/7ddcc/gatsby-astronaut.webp 150w,\\n/static/6d91c86c0fde632ba4cd01062fd9ccfa/dd79f/gatsby-astronaut.webp 300w,\\n/static/6d91c86c0fde632ba4cd01062fd9ccfa/11f71/gatsby-astronaut.webp 600w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":300}');
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#683898","images":{"fallback":{"src":"/static/4a9773549091c227cd2eb82ccd9c5e3a/c0d5f/gatsby-icon.png","srcSet":"/static/4a9773549091c227cd2eb82ccd9c5e3a/1096c/gatsby-icon.png 75w,\\n/static/4a9773549091c227cd2eb82ccd9c5e3a/01986/gatsby-icon.png 150w,\\n/static/4a9773549091c227cd2eb82ccd9c5e3a/c0d5f/gatsby-icon.png 300w","sizes":"(min-width: 300px) 300px, 100vw"},"sources":[{"srcSet":"/static/4a9773549091c227cd2eb82ccd9c5e3a/26941/gatsby-icon.avif 75w,\\n/static/4a9773549091c227cd2eb82ccd9c5e3a/95309/gatsby-icon.avif 150w,\\n/static/4a9773549091c227cd2eb82ccd9c5e3a/288e4/gatsby-icon.avif 300w","type":"image/avif","sizes":"(min-width: 300px) 300px, 100vw"},{"srcSet":"/static/4a9773549091c227cd2eb82ccd9c5e3a/a18cc/gatsby-icon.webp 75w,\\n/static/4a9773549091c227cd2eb82ccd9c5e3a/7ddcc/gatsby-icon.webp 150w,\\n/static/4a9773549091c227cd2eb82ccd9c5e3a/dd79f/gatsby-icon.webp 300w","type":"image/webp","sizes":"(min-width: 300px) 300px, 100vw"}]},"width":300,"height":300}');
 
 /***/ }),
 
