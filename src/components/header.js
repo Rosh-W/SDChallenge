@@ -127,5 +127,4 @@ Header2.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header2
-//export default Header2
+export default Header
